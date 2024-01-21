@@ -2,9 +2,9 @@ package com.bootcamp_it.test_task.dto;
 
 import com.bootcamp_it.test_task.entities.Role;
 import lombok.Builder;
-import lombok.Getter;
+import lombok.Data;
 
-@Getter
+@Data
 @Builder
 public class UserResponse {
 

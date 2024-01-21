@@ -2,9 +2,11 @@ package com.bootcamp_it.test_task.dto;
 
 import com.bootcamp_it.test_task.entities.Role;
 import jakarta.validation.constraints.*;
+import lombok.Builder;
 import lombok.Data;
 
 @Data
+@Builder
 public class UserRequest {
 
     @NotBlank
