@@ -5,6 +5,9 @@ import lombok.experimental.UtilityClass;
 @UtilityClass
 public class Constants {
 
+    /**
+     * User columns and table
+     */
     public static final String USERS = "USERS";
     public static final String USER_ID = "USER_ID";
     public static final String SURNAME = "SURNAME";
