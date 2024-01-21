@@ -1,9 +1,11 @@
 package com.bootcamp_it.test_task.dto;
 
 import com.bootcamp_it.test_task.entities.Role;
-import lombok.Data;
+import lombok.Builder;
+import lombok.Getter;
 
-@Data
+@Getter
+@Builder
 public class UserResponse {
 
     private Long id;

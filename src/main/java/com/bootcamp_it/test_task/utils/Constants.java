@@ -12,4 +12,5 @@ public class Constants {
     public static final String PATRONYMIC = "PATRONYMIC";
     public static final String EMAIL = "EMAIL";
     public static final String ROLE = "ROLE";
+    public static final String EXCEPTION = "Exception: {}";
 }
