@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: test-task
+  datasource:
+    url: jdbc:mysql://localhost:3306/userstorage
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: baxset8830
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+
+server:
+  port: 8081
