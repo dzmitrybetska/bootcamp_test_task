@@ -16,7 +16,7 @@ The application implements:
 
 - [x] Adding a user to the database
 - [x] Getting all users from a database
-- [x] Page-by-page display of posts by 10 users (sorted by email)
+- [x] Pagination to display 10 users on 1 page (sorted by email)
 - [x] Exception handler for validation exceptions
 - [x] Written tests for the service layer
 
@@ -30,6 +30,7 @@ The project was developed using:
     * Test
 * MySQL 8
 * Java 17+
+* Liquibase
 * Log4j2 as a logging system
 * Mapstruct
 * Lombok

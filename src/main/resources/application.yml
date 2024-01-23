@@ -8,9 +8,11 @@ spring:
     password: baxset8830
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
     database-platform: org.hibernate.dialect.MySQLDialect
     show-sql: true
-
+  liquibase:
+    change-log: classpath:db.changelog/db.changelog-master.xml
+    drop-first: 'true'
 server:
   port: 8081
