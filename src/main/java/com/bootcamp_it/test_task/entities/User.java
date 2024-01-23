@@ -32,7 +32,7 @@ public class User {
     @Column(name = PATRONYMIC, nullable = false, length = 40)
     private String patronymic;
 
-    @Column(name = EMAIL, nullable = false, unique = true)
+    @Column(name = EMAIL, nullable = false, length = 50, unique = true)
     private String email;
 
     @Enumerated(STRING)

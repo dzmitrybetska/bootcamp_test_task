@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet logicalFilePath="2024-01-23-2-insert-users"
+               id="2024-01-23-2-insert-users" author="d.b">
+
+        <insert tableName="users">
+            <column name="surname" value="Betska"/>
+            <column name="name" value="Dzmitry"/>
+            <column name="patronymic" value="Miecheslavovich"/>
+            <column name="email" value="d.betska2024@gmail.com"/>
+            <column name="role" value="ADMINISTRATOR"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Shestak"/>
+            <column name="name" value="Sergey"/>
+            <column name="patronymic" value="Michaylovich"/>
+            <column name="email" value="ser.she@yandex.by"/>
+            <column name="role" value="SALE_USER"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Block"/>
+            <column name="name" value="Alex"/>
+            <column name="patronymic" value="Vasilievich"/>
+            <column name="email" value="vas123@mail.ru"/>
+            <column name="role" value="CUSTOMER_USER"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Kujashevska"/>
+            <column name="name" value="Olga"/>
+            <column name="patronymic" value="Dmitrievna"/>
+            <column name="email" value="olya@gmail.com"/>
+            <column name="role" value="SECURE_API_USER"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Astrouska"/>
+            <column name="name" value="Tatsiana"/>
+            <column name="patronymic" value="Dmitrievna"/>
+            <column name="email" value="astra@gmail.com"/>
+            <column name="role" value="SECURE_API_USER"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Kanaplova"/>
+            <column name="name" value="Elena"/>
+            <column name="patronymic" value="Olegovna"/>
+            <column name="email" value="lena2000@gmail.com"/>
+            <column name="role" value="CUSTOMER_USER"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Razborskaya"/>
+            <column name="name" value="Oxana"/>
+            <column name="patronymic" value="Victorovna"/>
+            <column name="email" value="razbor@yandex.com"/>
+            <column name="role" value="SALE_USER"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Cheplin"/>
+            <column name="name" value="Victor"/>
+            <column name="patronymic" value="Dmitrievich"/>
+            <column name="email" value="chepa@gmail.com"/>
+            <column name="role" value="SECURE_API_USER"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Lostopad"/>
+            <column name="name" value="Kirill"/>
+            <column name="patronymic" value="Leonidovich"/>
+            <column name="email" value="kir.list@mail.ru"/>
+            <column name="role" value="SALE_USER"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Kuzmin"/>
+            <column name="name" value="Victor"/>
+            <column name="patronymic" value="Victorovich"/>
+            <column name="email" value="vickuz@gmail.com"/>
+            <column name="role" value="SALE_USER"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Misun"/>
+            <column name="name" value="Artiem"/>
+            <column name="patronymic" value="Dmitrievich"/>
+            <column name="email" value="misart@yandex.ru"/>
+            <column name="role" value="SECURE_API_USER"/>
+        </insert>
+
+        <insert tableName="users">
+            <column name="surname" value="Misun"/>
+            <column name="name" value="Natalia"/>
+            <column name="patronymic" value="Dmitrievna"/>
+            <column name="email" value="adolf@gmail.com"/>
+            <column name="role" value="CUSTOMER_USER"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
